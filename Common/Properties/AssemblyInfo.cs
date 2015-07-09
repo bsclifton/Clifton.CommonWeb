@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Clifton.IO.Authentication")]
-[assembly: AssemblyDescription("Simple authentication in C# using SQL Server")]
+[assembly: AssemblyTitle("Clifton.IO.Common")]
+[assembly: AssemblyDescription("Common authentication/authorization logic in C# using SQL Server")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Clifton Consulting Group")]
-[assembly: AssemblyProduct("Clifton.IO.Authentication")]
+[assembly: AssemblyProduct("Clifton.IO.Common")]
 [assembly: AssemblyCopyright("Copyright © Clifton Consulting Group 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

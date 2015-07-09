@@ -1,2 +1,2 @@
-# Authentication
-Simple authentication in C# using SQL Server
+# Clifton.IO.Common
+Common authentication/authorization logic in C# using SQL Server
