@@ -4,7 +4,7 @@ using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace Clifton.IO.Authentication.Account {
+namespace Clifton.IO.Authentication {
     public class Account {
         #region Object definition
 
