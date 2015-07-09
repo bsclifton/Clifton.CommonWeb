@@ -13,7 +13,8 @@ namespace Clifton.IO.Authentication {
         public string email { get; set; }
         public string hash { get; set; }
 
-        // http://james.newtonking.com/json/help/index.html?topic=html/ConditionalProperties.htm
+        // When serializing on a retrieval, the hash field shouldn't be sent back to the caller.
+        // http://www.newtonsoft.com/json/help/html/ConditionalProperties.htm
         private bool shouldSerializeHash;
         public bool ShouldSerializehash() { return shouldSerializeHash; }
 
