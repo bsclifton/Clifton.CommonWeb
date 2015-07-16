@@ -1,2 +1,2 @@
 # Clifton.Common
-Common authentication/authorization logic in C# using SQL Server
+Common code that gets used for every project
