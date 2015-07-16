@@ -12,8 +12,8 @@
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>Clifton.IO.CommonDb</RootNamespace>
-    <AssemblyName>Clifton.IO.CommonDb</AssemblyName>
+    <RootNamespace>Clifton.CommonDb</RootNamespace>
+    <AssemblyName>Clifton.CommonDb</AssemblyName>
     <ModelCollation>1033, CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>

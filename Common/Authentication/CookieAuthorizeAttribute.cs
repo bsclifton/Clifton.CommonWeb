@@ -1,4 +1,4 @@
-﻿using Clifton.IO.Authentication;
+﻿using Clifton.Common.Authentication;
 using System;
 using System.Linq;
 using System.Net;
@@ -8,7 +8,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 
-namespace Clifton.IO.Authorization {
+namespace Clifton.Common.Authentication {
     public struct CookieNames {
         public const string AccountId = "accountId";
         public const string ClientId = "clientId";
@@ -17,7 +17,7 @@ namespace Clifton.IO.Authorization {
     }
 
     ///<summary>
-    ///Authenticate users calling Web API using a token from their cookie.
+    /// Authenticate users calling Web API using a token from their cookie.
     ///</summary>
     /// <see cref="https://msdn.microsoft.com/en-us/library/system.web.http.authorizeattribute(v=vs.118).aspx"/>
     /// <seealso cref="https://github.com/rblaettler/BasicHttpAuthorization"/>

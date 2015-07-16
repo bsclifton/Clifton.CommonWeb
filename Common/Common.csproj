@@ -7,8 +7,8 @@
     <ProjectGuid>{2F64E4EA-B805-47FB-BD63-BA504911D887}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Clifton.IO.Common</RootNamespace>
-    <AssemblyName>Clifton.IO.Common</AssemblyName>
+    <RootNamespace>Clifton.Common</RootNamespace>
+    <AssemblyName>Clifton.Common</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -53,12 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account.cs" />
-    <Compile Include="AccountSession.cs" />
-    <Compile Include="AccountStatus.cs" />
-    <Compile Include="BaseController.cs" />
-    <Compile Include="CookieAuthorizeAttribute.cs" />
-    <Compile Include="PasswordHash.cs" />
+    <Compile Include="Authentication\Account.cs" />
+    <Compile Include="Authentication\AccountSession.cs" />
+    <Compile Include="Authentication\AccountStatus.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Authentication\CookieAuthorizeAttribute.cs" />
+    <Compile Include="Authentication\PasswordHash.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
