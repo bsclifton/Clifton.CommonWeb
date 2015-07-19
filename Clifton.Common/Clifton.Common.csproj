@@ -30,6 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -59,6 +60,7 @@
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Authentication\CookieAuthorizeAttribute.cs" />
     <Compile Include="Authentication\PasswordHash.cs" />
+    <Compile Include="MyComputer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,5 +1,4 @@
 ﻿using Clifton.Common.Authentication;
-using Clifton.Common.Authentication;
 using System;
 using System.Configuration;
 using System.Data.SqlClient;
