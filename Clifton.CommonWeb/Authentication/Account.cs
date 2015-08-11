@@ -4,7 +4,7 @@ using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace Clifton.Common.Authentication {
+namespace Clifton.CommonWeb.Authentication {
     public class Account {
         #region Object definition
 

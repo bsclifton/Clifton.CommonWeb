@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Clifton.Common")]
-[assembly: AssemblyDescription("Common code that gets used for every project")]
+[assembly: AssemblyTitle("Clifton.CommonWeb")]
+[assembly: AssemblyDescription("Code that can be reused between web projects")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Clifton Consulting Group")]
-[assembly: AssemblyProduct("Clifton.Common")]
+[assembly: AssemblyProduct("Clifton.CommonWeb")]
 [assembly: AssemblyCopyright("Copyright © Clifton Consulting Group 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

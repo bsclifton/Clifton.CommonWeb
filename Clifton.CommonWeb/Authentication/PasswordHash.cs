@@ -29,7 +29,7 @@
 using System;
 using System.Security.Cryptography;
 
-namespace Clifton.Common.Authentication {
+namespace Clifton.CommonWeb.Authentication {
     /// <summary>
     /// Salted password hashing with PBKDF2-SHA1.
     /// Author: havoc AT defuse.ca

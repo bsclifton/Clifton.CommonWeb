@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clifton.Common", "Clifton.Common\Clifton.Common.csproj", "{2F64E4EA-B805-47FB-BD63-BA504911D887}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clifton.CommonWeb", "Clifton.CommonWeb\Clifton.CommonWeb.csproj", "{2F64E4EA-B805-47FB-BD63-BA504911D887}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Clifton.Common.Database", "Clifton.Common.Database\Clifton.Common.Database.sqlproj", "{C1910ED0-F8D0-470E-BC21-8AAB7B5032AB}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Clifton.CommonWeb.Database", "Clifton.CommonWeb.Database\Clifton.CommonWeb.Database.sqlproj", "{C1910ED0-F8D0-470E-BC21-8AAB7B5032AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clifton.Common.Tests", "Clifton.Common.Tests\Clifton.Common.Tests.csproj", "{EB03DA68-D8D0-474A-9CB2-0F12B88C873D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clifton.CommonWeb.Tests", "Clifton.CommonWeb.Tests\Clifton.CommonWeb.Tests.csproj", "{EB03DA68-D8D0-474A-9CB2-0F12B88C873D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

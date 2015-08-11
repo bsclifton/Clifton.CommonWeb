@@ -1,4 +1,4 @@
-﻿using Clifton.Common.Authentication;
+﻿using Clifton.CommonWeb.Authentication;
 using System;
 using System.Configuration;
 using System.Data.SqlClient;
@@ -7,7 +7,7 @@ using System.Net.Http.Headers;
 using System.Web;
 using System.Web.Http;
 
-namespace Clifton.Common.Controllers {
+namespace Clifton.CommonWeb.Controllers {
     public abstract class BaseController : ApiController {
         protected string ConnectionString { get { return ConfigurationManager.ConnectionStrings["Default"].ConnectionString; } }
 

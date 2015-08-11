@@ -3,7 +3,7 @@ using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace Clifton.Common.Authentication {
+namespace Clifton.CommonWeb.Authentication {
     public class AccountSession {
         private static string ConnectionString { get { return ConfigurationManager.ConnectionStrings["Default"].ConnectionString; } }
 

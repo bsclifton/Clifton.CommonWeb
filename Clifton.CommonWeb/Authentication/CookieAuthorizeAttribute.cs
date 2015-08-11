@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 
-namespace Clifton.Common.Authentication {
+namespace Clifton.CommonWeb.Authentication {
     public struct CookieNames {
         public const string AccountId = "accountId";
         public const string ClientId = "clientId";

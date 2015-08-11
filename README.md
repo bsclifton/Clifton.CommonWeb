@@ -1,2 +1,2 @@
-# Clifton.Common
-Common code that gets used for every project
+# Clifton.CommonWeb
+Code that can be reused between web projects
