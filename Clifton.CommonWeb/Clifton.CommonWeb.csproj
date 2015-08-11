@@ -7,8 +7,8 @@
     <ProjectGuid>{2F64E4EA-B805-47FB-BD63-BA504911D887}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Clifton.Common</RootNamespace>
-    <AssemblyName>Clifton.Common</AssemblyName>
+    <RootNamespace>Clifton.CommonWeb</RootNamespace>
+    <AssemblyName>Clifton.CommonWeb</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

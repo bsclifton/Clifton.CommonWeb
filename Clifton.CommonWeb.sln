@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clifton.CommonWeb", "Clifton.CommonWeb\Clifton.CommonWeb.csproj", "{2F64E4EA-B805-47FB-BD63-BA504911D887}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Clifton.CommonWeb.Database", "Clifton.CommonWeb.Database\Clifton.CommonWeb.Database.sqlproj", "{C1910ED0-F8D0-470E-BC21-8AAB7B5032AB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clifton.CommonWeb.Tests", "Clifton.CommonWeb.Tests\Clifton.CommonWeb.Tests.csproj", "{EB03DA68-D8D0-474A-9CB2-0F12B88C873D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +23,6 @@ Global
 		{C1910ED0-F8D0-470E-BC21-8AAB7B5032AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1910ED0-F8D0-470E-BC21-8AAB7B5032AB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C1910ED0-F8D0-470E-BC21-8AAB7B5032AB}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{EB03DA68-D8D0-474A-9CB2-0F12B88C873D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB03DA68-D8D0-474A-9CB2-0F12B88C873D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB03DA68-D8D0-474A-9CB2-0F12B88C873D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB03DA68-D8D0-474A-9CB2-0F12B88C873D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
